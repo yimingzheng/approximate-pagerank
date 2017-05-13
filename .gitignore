@@ -1,12 +1,74 @@
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Maven
+target
+dependency-reduced-pom.xml
+core*.dmp
+pom.xml.releaseBackup
+omtr_tmp
 
-# Package Files #
+VERSIONS_BUNDLE.yaml
+
+# Package Files
 *.jar
 *.war
 *.ear
+*.ipr
+*.iws
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+.settings
+.project
+.vagrant
+
+# Eclipse
+.cache
+.classpath
+.project
+.checkstyle
+
+# merge garbage
+*.orig
+
+# backup files
+*.bak
+
+.settings
+.externalToolBuilders
+maven-eclipse.xml
+
+#log files
+logs
+*.log
+test-output
+
+#Python
+*.pyc
+
+# review board
+.reviewboardrc
+
+# other files
+.DS_Store
+*.swp
+
+# Spark Files #
+metastore_db/
+# docker-compose dev specific env file #
+.env
+
+buildrunner.results
+
+# Scala-IDE specific
+.cache-main
+.cache-tests# Created by .ignore support plugin (hsz.mobi)
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
